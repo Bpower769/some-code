@@ -3,7 +3,7 @@ import random
 
 def attack_likes():
   enemy_health = 40
-# the menu
+
 print('                   ')
 print('PYTHION v0.1')
 print('                   ')
@@ -16,13 +16,13 @@ print('QUIT[4]')
 
 while True:
   t = input('>>>')
-  # input buttons
+  
   if t == "4": sys.exit(0)
   if t == "2": print('This is a indie text based video game coded by Braden Maclemale!')
   if t == "3": print('The Tutorial is not Yet Ready')
   if t == "1": break
 
-# character name stuff
+
 while True:
   print('------------------------------')
   print('                   ')
